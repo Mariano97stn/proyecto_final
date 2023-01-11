@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@200&display=swap');
+
+
+.menu{
+
+    width: auto;
+
+}
+ul.menu_lista{
+    font-family: 'Asap Condensed', sans-serif;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    background-color: rgba(97, 171, 255, 0.815);    
+}
+ul.menu_lista li{
+    width: 20%;
+}
+
+.menu_lista{
+    padding: 0%;
+}
+ul.menu_lista li a{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    display: block;
+    padding: 0px ;
+    text-align: center;
+
+}
+.section_all{
+    font-family: 'Signika Negative', sans-serif;
+    text-align: justify;
+
+}
+.article_all{
+    font-family: 'Signika Negative', sans-serif;
+
+}
+.imagperf{
+    width: 130px;
+    height: 170px;
+    float: right;
+    border-style: solid;
+    margin-block: 15px;
+    margin-right: 15px;
+}
+#section_ini li{
+    padding: 5px;
+}
+body{
+    background-color:rgb(241, 248, 246);
+
+}
+.container{
+    width: 800px;
+    max-width: 90%;
+    margin: 30px auto;
+}
+.active{
+    background-color:rgb(113, 167, 228) ;
+}

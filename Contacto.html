@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS\contacto.css">
+    <title> Contacto </title>
+</head>
+<body>
+    <div class="primera">
+        <label for="nombre">Nombre de empresa:</label>
+        <input type="text" id="nombreE" name="NombreDeEmpresa">
+    </div>
+    <div class="tercera">
+    <label for="Nro_contacto">Nro. de Contacto:</label>
+    <input type="text" id="Nro_contacto" name="Nro. de contacto">
+    </div>
+    <div class="cuarta">
+        <p for="Rubro">Rubro:</p>
+            <input type="radio" name="Adm" value="Adm">Administracion
+            <input type="radio" name="Cont" value="Cont">Contabilidad
+            <input type="radio" name="Fin" value="Fin">Finanzas
+            <input type="radio" name="Sis"n value="Sis">Sistemas
+            <input type="radio" name="Ans" value="Ans">Analista
+            <input type="radio" name="Otr" value="Otr">Otros
+        </select>
+    </div>
+    <div>
+            <label for="Jor">Jornada</label>
+                <select id="jornada" name="Jornadas">
+                    <option value="JorC">Jornada Completa</option>
+                    <option value="JorM">Media Jornada</option>
+                    <option value="JorU">Unica Jornada</option>
+                </select>
+    </div>
+    <div class="propuesta">
+        <p>Propuesta:</p>
+        <textarea name="Propuesta" rows="10" cols="100">
+        </textarea>
+        
+        <div>
+        <button id="submit" type="submit">Enviar propuesta</button>
+        </div>
+    </div>
+    
+        
+</body>
+</html>
