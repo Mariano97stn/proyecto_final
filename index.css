@@ -62,3 +62,19 @@ body{
 .active{
     background-color:rgb(113, 167, 228) ;
 }
+@media screen and (max-width: 500px){
+    ul.menu_lista li{
+        width: none;
+        flex-basis: 0;
+        flex-grow: 1;
+        font-size: xx-small;
+    }
+    .section_all{
+        text-align: left;
+        font-size: x-small;
+        
+    }
+    .imagperf{
+        float: none;
+    }
+}
