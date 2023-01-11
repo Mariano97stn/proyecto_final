@@ -63,7 +63,7 @@ body{
     background-color:rgb(113, 167, 228) ;
 }
 @media screen and (max-width: 500px){
-    ul.menu_lista li{
+    ul.menu_lista li a{
         width: none;
         flex-basis: 0;
         flex-grow: 1;
@@ -76,5 +76,13 @@ body{
     }
     .imagperf{
         float: none;
+        width: 90px;
+        height: 120px;
+        margin:0;
+    }
+}
+@media screen and (max-width: 300px){
+    ul.menu_lista li{
+        padding: 15px 0px;
     }
 }
