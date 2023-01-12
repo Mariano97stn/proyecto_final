@@ -33,18 +33,27 @@ ul.menu_lista li a{
 .section_all{
     font-family: 'Signika Negative', sans-serif;
     text-align: justify;
-
+}
+.section_all li{
+    padding-bottom: 30px;
+    list-style: none;
+}
+.section_all h1{
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-size: 44px;
+}
+.section_formad ol{
+    padding-top: 5px;
 }
 .imagperf{
-    width: 130px;
-    height: 170px;
+    width: 200px;
+    height: 260px;
     float: right;
     border-style: solid;
     margin-block: 15px;
     margin-right: 15px;
-}
-#section_ini li{
-    padding: 5px;
+
 }
 body{
     background-color:rgb(241, 248, 246);
@@ -55,12 +64,32 @@ body{
     max-width: 90%;
     margin: 30px auto;
 }
+.active{
+    background-color: rgb(91, 155, 216);
+}
+@media screen and (max-width: 700px){
+    .imagperf{
+        float: none;
+        margin-bottom: 40px;
+    }
+    .section_all h1{
+        padding-bottom: 20px;
+        padding-top: 15px;
+        font-size: 36px;
+    }
+}
 @media screen and (max-width: 500px){
     ul.menu_lista li a{
         width: none;
         flex-basis: 0;
         flex-grow: 1;
         font-size: xx-small;
+    }
+    .section_all h1{
+        padding-bottom: 0px;
+        padding-top: 5px;
+        border: 10px;
+        font-size:24px;
     }
     .section_all{
         text-align: left;
@@ -69,14 +98,30 @@ body{
     }
     .imagperf{
         float: none;
-        width: 90px;
+        width: 95px;
         height: 120px;
-        margin:0;
+        margin-bottom:15px;
+    }
+    .section_ini li{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        list-style: none;
     }
 }
 @media screen and (max-width: 300px){
     ul.menu_lista li{
         padding: 15px 0px;
+    }
+    .section_all h1{
+        padding-bottom: 0px;
+        padding-top: 0px;
+        font-size: 16px;
+    }
+    .imagperf{
+        float: none;
+        width: 75px;
+        height: 100px;
+        margin:5px;
     }
 }
 .menu_lista li:hover{
