@@ -35,10 +35,6 @@ ul.menu_lista li a{
     text-align: justify;
 
 }
-.article_all{
-    font-family: 'Signika Negative', sans-serif;
-
-}
 .imagperf{
     width: 130px;
     height: 170px;
@@ -58,9 +54,6 @@ body{
     width: 800px;
     max-width: 90%;
     margin: 30px auto;
-}
-.active{
-    background-color:rgb(113, 167, 228) ;
 }
 @media screen and (max-width: 500px){
     ul.menu_lista li a{
@@ -85,4 +78,8 @@ body{
     ul.menu_lista li{
         padding: 15px 0px;
     }
+}
+.menu_lista li:hover{
+    background-color:rgb(162, 204, 252);
+
 }
